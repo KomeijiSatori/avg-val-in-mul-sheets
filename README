@@ -1,0 +1,19 @@
+2016.8.30
+This program is aimed at getting the average value of multiple .xls/.xlsx files where the value share the same location in the .xls/.xlsx file.
+The common location is a square area. Given the left-top cell and the row numer and the column number will determine a square area in which the average value of each cell can be solved.
+	
+1.Input all excel files in 'input' folder
+2.Add all dependece to the project(*.jar)
+3.Modify the parameter
+parameters:
+    final static String inPath = "./input/";//folder path where .xlsx files are stored.
+    final static String outPath = "./result/result.xlsx";//output file path
+    final static String errPath = "./result/error.txt";//error file path
+    final static int rowCnt = 29;//the number of rows
+    final static int colCnt = 5;//the number of columns
+    final static int startRow = 2;//start row (start from 0)
+    final static int startCol = 3;//start column (start from 0)
+4.Excute the program
+5.get the result in ./result. If any error, see error.txt
+
+Any questions, contact me at KomeijiSatori07@gmail.com
